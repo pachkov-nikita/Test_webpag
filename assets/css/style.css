@@ -1,0 +1,176 @@
+
+.logo
+{
+    width: 150px;
+    height: 80px;
+}
+
+.container
+{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.left
+{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.right
+{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+select, input, textarea
+{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 40px;
+	outline: none;
+}
+
+
+.contact1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact2
+{
+	max-width:450px;
+    min-width: 450px;
+}
+
+.contact2, .zapolnenie
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.zapolnenie
+{
+    margin-top: 15px;
+}
+
+.zapolnenie label
+{
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    color: grey;
+}
+
+.t1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.t1 .zapolnenie + .zapolnenie
+{
+    margin-left: 20px;
+}
+
+.dodatok
+{
+    min-width: 350px;
+	justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+}
+
+.dodatok p
+{
+    font-family: 'Times New Roman';
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    transition-duration: 0.4s;
+    background-color: gray;
+    color: black;
+}
+
+.button:hover
+{
+    color: white;
+}
+.check
+{
+    margin-top: 10px;
+}
+
+textarea
+{
+    height: 50px;
+}
+
+.lorem1
+{
+    font-family: 'Times New Roman', cursive;
+    font-size: 20px;
+    text-indent: 30px;
+    color: black;
+}
+
+.lorem2
+{
+    font-family: "Arial", cursive;
+    font-size: 24px;
+    text-indent: 30px;
+    color: blue;
+}
+
+.lorem3
+{
+    font-family: 'Geneva', cursive;
+    font-size: 28px;
+    text-indent: 30px;
+    color: yellow;
+}
+
+
+.table
+{
+    width: 80%;
+    margin-left: 100px;
+}
+.subtotal
+{
+    text-align: right;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.table, th, td
+{
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody > tr > td
+{
+    color: black;
+    background: white;
+    border: 2px solid red;
+}
+
+thead > tr > th
+{
+    color: white;
+    background: gray;
+    border: 2px solid orange;
+}
+
+
+
+

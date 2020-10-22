@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<header class="header"><img class="picture" src="./assets/img/picture.jpg"></header>
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>Contact</h1>
+            <div class="contact1">
+
+                <div class="contact2">
+                    <h2 class="detalis">User details</h2>
+                    <form>
+
+                        <div class="zapolnenie">
+                            <label for="name">Full name *</label>
+                            <input type="text" id="name" />
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="birthday">Your birthday *</label>
+                            <input type="date" id="birthday" />
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="gender">Gender *</label>
+                            <select id="gender">
+                                <option selected value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="t1">
+                            <div class="zapolnenie">
+                                <label for="country">Country</label>
+                                <select id="country">
+                                    <option selected value="Ukraine">Ukraine</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Chine">Chine</option>
+                                    <option value="Canada">Canada</option>
+                                </select>
+                            </div>
+
+                            <div class="zapolnenie">
+                                <label for="phone">Phone *</label>
+                                <input type="number" id="phone" />
+                                <div class="dodatok">
+                                    <p>Mobile: 094 231 234</p>
+                                    <p>Fixed: 2123 1234</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="bio">Bio</label>
+                            <textarea id="bio" cols="40" rows="1"></textarea>
+                            <div class="dodatok">
+                                <p>Tell us about yourself</p>
+                                <p>0/256</p>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="button">Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact2">
+                    <h2 class="detalis">Account details</h2>
+                    <form>
+                        <div class="zapolnenie">
+                            <label for="username">Username *</label>
+                            <input type="text" id="username" />
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" />
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="password">Password *</label>
+                            <input type="password" id="password" />
+                        </div>
+
+                        <div class="zapolnenie">
+                            <label for="confirm-password">Confirm-password *</label>
+                            <input type="password" id="confirm-password" />
+                        </div>
+
+                        <div class="zapolnenie t1">
+                            <input type="checkbox" class="checkbox">
+                            <p class="check">I accept terms and conditions</p>
+                        </div>
+
+                        <button type="submit" class="button">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="slider.html">Slider</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><img class="picture" src="./assets/img/picture.jpg"></footer>
+</div>
+</body>
+</html>
