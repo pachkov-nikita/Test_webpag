@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>3 Column Layout</title>
     <link rel="stylesheet" href="assets/css/layout.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-
+	<link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/slide.css">
 </head>
 <body>
 <header class="header"><img class="picture" src="./assets/img/picture.jpg"></header>
@@ -13,6 +13,12 @@
     <main class="center column">
         <article>
             <h1>Slider</h1>
+			   <div class="SliderButton">
+            <button onclick="prevSlide()">Prev</button>
+            <button onclick="nextSlide()">Next</button>
+        </div>
+        <div id="mySlider"></div>
+        <script src="assets/js/script.js"></script>
             <p></p>
         </article>
     </main>
